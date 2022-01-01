@@ -19,3 +19,7 @@ Modify file structure to include a "partials" folder within views. Correct any e
 ## Challenge 5
 
 Build out the about and contact pages similar to the home route
+
+## Challenge 6
+
+Make navigation links function
