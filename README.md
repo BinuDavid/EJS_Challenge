@@ -23,3 +23,7 @@ Build out the about and contact pages similar to the home route
 ## Challenge 6
 
 Make navigation links function
+
+## Challenge 7
+
+Add Compose route to server code, and add content
