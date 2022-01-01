@@ -27,3 +27,7 @@ Make navigation links function
 ## Challenge 7
 
 Add Compose route to server code, and add content
+
+## Challenge 8
+
+Using the text input in compose, send that data from server into console.log
