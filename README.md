@@ -35,3 +35,6 @@ Using the text input in compose, send that data from server into console.log
 ## Challenge 9
 
 Modify form elements to match design provided. Should include 2 labels, text, and textarea with publish styled utilizing bootstrap
+
+## Challenge 10
+Save both the post title and content as an object on server
