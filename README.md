@@ -38,3 +38,6 @@ Modify form elements to match design provided. Should include 2 labels, text, an
 
 ## Challenge 10
 Save both the post title and content as an object on server
+
+## Challenge 11
+Create a global variable posts which should be an array. Each post generated from compose route should get moved into this variable. Once posts is updated, you should be automatically navigated to the home route.
