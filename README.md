@@ -53,3 +53,6 @@ Modify existing for loop from Challenge 13 with the forEach method
 
 ## Challenge 15
 Replace the console.log statement last used in Challenge 14, to render each post on home.ejs
+
+## Challenge 16
+Using route parameters, log any path following the posts route (localhost:3000/posts/{any path})

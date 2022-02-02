@@ -23,6 +23,10 @@ app.get("/", function (req, res) {
   res.render("home", { home: homeStartingContent, posts: posts});
 });
 
+app.get("/posts/:anyPath", function (req, res) {
+  console.log(req.params.anyPath)
+})
+
 app.get("/about", function (req, res) {
   res.render("about", { about: aboutContent });
 });
