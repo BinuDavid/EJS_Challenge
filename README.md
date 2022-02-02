@@ -62,3 +62,6 @@ Create a post titled "Test", and create a route in app.js that will log "Match f
 
 ## Challenge 18
 Utilize Lo Dash by reading the documentation, installing, and using lowercase method to allow the browser url to match post title in cases where the url is in an alternate case or has hyphen(s) between post titles, such as: "Another-post"
+
+## Challenge 19
+Utilizing post.ejs and app.js, replace the log statement for "Match found!" produced in Challenge 18 with code to dynamically generate the title and content of the matched post

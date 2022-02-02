@@ -27,10 +27,11 @@ app.get("/", function (req, res) {
 app.get("/posts/:postTitle", function (req, res) {
   const routePostTitle = _.lowerCase(req.params.postTitle);
   posts.forEach(post=>{
-    const blogPostsTitle = _.lowerCase(post.title);
+    const blogPostTitle = _.lowerCase(post.title);
    
-    if(routePostTitle === blogPostsTitle){
-      console.log("Match found!");
+    if(routePostTitle === blogPostTitle){
+      res.render("post", {title: post.title,
+      content: post.content})
     } else {
       console.log("Match not found")
     };
