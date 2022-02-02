@@ -41,3 +41,6 @@ Save both the post title and content as an object on server
 
 ## Challenge 11
 Create a global variable posts which should be an array. Each post generated from compose route should get moved into this variable. Once posts is updated, you should be automatically navigated to the home route.
+
+## Challenge 12
+Remove any log statements from app.js except for the log statement within app.listen. Within home.ejs, insert a log statement which will show the posts array
