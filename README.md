@@ -56,3 +56,6 @@ Replace the console.log statement last used in Challenge 14, to render each post
 
 ## Challenge 16
 Using route parameters, log any path following the posts route (localhost:3000/posts/{any path})
+
+## Challenge 17
+Create a post titled "Test", and create a route in app.js that will log "Match found!" if the route specified in the browser matches the post title

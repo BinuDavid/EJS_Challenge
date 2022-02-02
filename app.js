@@ -23,8 +23,12 @@ app.get("/", function (req, res) {
   res.render("home", { home: homeStartingContent, posts: posts});
 });
 
-app.get("/posts/:anyPath", function (req, res) {
-  console.log(req.params.anyPath)
+app.get("/posts/:postTitle", function (req, res) {
+  posts.forEach(post=>{
+    if(req.params.postTitle === post.title){
+      console.log("Match found!");
+    };
+  })
 })
 
 app.get("/about", function (req, res) {
