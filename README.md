@@ -47,3 +47,6 @@ Remove any log statements from app.js except for the log statement within app.li
 
 ## Challenge 13
 Modifying the existing code within home.ejs, create a for loop to target just the title's of the post array, and log them to the console. To test, make sure to create 2 - 3 posts from the compose route
+
+## Challenge 14
+Modify existing for loop from Challenge 13, with the forEach method
