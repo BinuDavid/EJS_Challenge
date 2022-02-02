@@ -44,3 +44,6 @@ Create a global variable posts which should be an array. Each post generated fro
 
 ## Challenge 12
 Remove any log statements from app.js except for the log statement within app.listen. Within home.ejs, insert a log statement which will show the posts array
+
+## Challenge 13
+Modifying the existing code within home.ejs, create a for loop to target just the title's of the post array, and log them to the console. To test, make sure to create 2 - 3 posts from the compose route
