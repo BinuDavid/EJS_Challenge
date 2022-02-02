@@ -3,6 +3,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const ejs = require("ejs");
+const _ = require("lodash")
 const posts = []
 
 const homeStartingContent =
@@ -24,9 +25,14 @@ app.get("/", function (req, res) {
 });
 
 app.get("/posts/:postTitle", function (req, res) {
+  const routePostTitle = _.lowerCase(req.params.postTitle);
   posts.forEach(post=>{
-    if(req.params.postTitle === post.title){
+    const blogPostsTitle = _.lowerCase(post.title);
+   
+    if(routePostTitle === blogPostsTitle){
       console.log("Match found!");
+    } else {
+      console.log("Match not found")
     };
   })
 })

@@ -59,3 +59,6 @@ Using route parameters, log any path following the posts route (localhost:3000/p
 
 ## Challenge 17
 Create a post titled "Test", and create a route in app.js that will log "Match found!" if the route specified in the browser matches the post title
+
+## Challenge 18
+Utilize Lo Dash by reading the documentation, installing, and using lowercase method to allow the browser url to match post title in cases where the url is in an alternate case or has hyphen(s) between post titles, such as: "Another-post"
