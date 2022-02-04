@@ -60,3 +60,5 @@ Utilizing post.ejs and app.js, replace the log statement for "Match found!" prod
 ## Challenge 20
 As blog posts are generated in the home route, the webpage can get easily cluttered. Research how to truncate the blog posts on the home route, and implement
 
+## Challenge 21
+Add a "Read More" link which will navigate you to the route of "/posts/" + the blog post title. In this route you should have the title, and the full content of this blog post
