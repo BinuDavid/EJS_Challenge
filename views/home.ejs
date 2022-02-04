@@ -3,12 +3,14 @@
 <h1>Home</h1>
 <p><%= home %></p>
 
-
-<% posts.forEach(post=> { %>
-   <h1> <%= post.title %> </h1>
-   <p> <%= post.content %> </p>
+<% posts.forEach(post => { %>
+  <% const num = 50; %>
+  <% let content = (post.content); %>
+<% if(content.length > num){ %>
+<% content = content.substring(0, num) + " ..."; %>
+<% } %>
+   <h1> <%= post.title %> </h1>  
+   <p> <%= content %> </p> 
 <% }) %>
-
-
 
 <%- include("partials/footer"); -%>
